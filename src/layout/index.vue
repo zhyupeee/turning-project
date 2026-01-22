@@ -25,7 +25,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { useRouter } from 'vue-router'
 //引入左侧菜单子组件
 import logo from './logo/index.vue'
@@ -103,7 +103,7 @@ let $router = useRouter()
 //获取layout配置相关仓库
 let LayoutSettingStore = useLayoutSettingStore()
 </script>
-<script lang="ts">
+<script setup>
 export default {
   name: 'Layout'
 }
