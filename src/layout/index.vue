@@ -102,11 +102,11 @@ let userStore = useUserStore()
 let $router = useRouter()
 //获取layout配置相关仓库
 let LayoutSettingStore = useLayoutSettingStore()
-</script>
-<script setup>
-export default {
+
+// 设置组件名称
+defineOptions({
   name: 'Layout'
-}
+})
 </script>
 
 <style lang="scss">
